@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS</title>
+    
+    <!-- 3 0 internal css -->
+     <style>
+        p {
+            color: gold;
+            font-size: 16px;
+        }
+     </style>
+
+     <!-- 4 - External CSS -->
+      <!-- CSS = Cascading Style Sheets -->
+       <link rel="stylesheet" href="css/styles.css">
+       <link rel="stylesheet" href="css/lists.css">
+       <link rel="stylesheet" href="css/titles.css">
+
+
+</head>
+<body>
+    <!-- 1 - Inline CSS -->
+     <h1 style="color: red">Mudar a cor no Inline</h1>
+     <h1 style="color: blue">Outro Titulo</h1>
+
+     <!-- 2 - Multiplas regras -->
+      <h1 style="color: purple; font-size: 50px; border-bottom: 1px solid red;">Mudar e cor e tamanho da fonte</h1>
+
+      <!-- 3 - internal css-->
+       <p>O estilo deste paragrafo foi determinado no head, que eh uma das opcoes de onde inserir o css</p>
+       <p>Um segundo exeplo de paragrafo que agora segue a mesma regra</p>
+       <p>E um terceiro para ter certeza</p>
+
+       <!-- 4 - External CSS -->
+        <h3>Meu Titulo verde controlado pelo External CSS </h3>
+
+        <!-- 5 - Ordem do CSS -->
+         <p style="color: red">Ordem do CSS, Inline - Internal = External - Default do Navagador (Neste paragrafor temos o online)</p>
+         <p>Este estilo de paragrafo esta sendo definido em cascata entre internal e external, e eh definido pela ordem de carregamento no head</p>
+
+         <!-- 6 - Multuplos CSS-->
+          <ul>
+            <li>Banana</li>
+            <li>Maca</li>
+            <li>Abacate</li>
+          </ul>
+
+          <!-- 7 - Desafio 2 -->
+           <h4>Este eh o resultado do meu desafio</h4>
+
+           <!-- 8 - classes -->
+            <p class="paragraph">Um exemplo de de utilizacao de classe 1</p>
+            <p class="paragraph">Um exemplo de de utilizacao de classe 2</p>
+            <p class="paragraph">Um exemplo de de utilizacao de classe 2</p>
+
+            <!-- 9 - Id -->
+             <h1 id="exclusive-title">Este eh um titulo exclusivo com ID</h1>
+
+
+
+            <!-- 10 - multiplas regras, ordem do css -->
+              <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+              <h2 class="titulo">Algum texto 2</h2>
+              <h2>Algum texto 3</h2>
+
+            <!-- 11 - nome da cor -->
+             <p class="color-name">Qualquer texto para nome de cores</p>
+
+            
+             <!-- 12 - hex-->
+              <p class="hex">Paragrafo com texto usando cor hex</p>
+              <p class="hex2">Segundo paragrafo para testar cor hex</p>
+
+            
+</body> 
+</html>
